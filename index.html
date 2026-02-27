@@ -162,14 +162,12 @@ body{
   <span class="coords" id="addrText"></span>
   <div class="divider"></div>
 
-  <!-- INSTAGRAM REEL -->
   <div class="insta">
     <blockquote class="instagram-media"
       data-instgrm-permalink="https://www.instagram.com/reel/DBMLodZqXPV/"
       data-instgrm-version="14"
       style="background:#fff;border-radius:14px;border:0;margin:0;max-width:100%;">
     </blockquote>
-
     <script async src="https://www.instagram.com/embed.js"></script>
 
     <p style="margin-top:10px;font-size:13px;color:#b8bfd8;">
@@ -188,13 +186,15 @@ body{
 </main>
 
 <script>
-const address = "962 R. Alm. Alexandrino, Rio de Janeiro, Brazil";
-const lat = -22.9234127;
-const lng = -43.1876138;
-const zoom = 19;
+// 📍 Nieuwe locatie
+const address = "NDSM-Plein, Amsterdam, Netherlands";
+const lat = 52.401361;
+const lng = 4.894540;
+const zoom = 18;
 
-const heading = 110;
-const pitch = 8;
+// Street View tuning (kunnen we later exact afstellen)
+const heading = 180;
+const pitch = 5;
 const fov = 90;
 
 const openMapsUrl =
